@@ -1,0 +1,10 @@
+h1 {/* Seletor */
+    color: coral;/* Propriedade: Atributo */
+    font-size: 24px;
+}
+h2{
+    color: blue;
+}
+p{
+    color: black;
+}
