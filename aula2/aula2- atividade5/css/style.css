@@ -1,13 +1,15 @@
 #t1{
-    color: cadetblue;
-    font-size: xx-large;
+    color: rgb(122, 56, 117)
 }
 #subt1{
-    color: rgb(94, 171, 235);
+    color: rgb(173, 48, 163);
 }
 #subt2{
-    color: rgb(94, 171, 235);
+    color: rgb(173, 48, 163)
 }
 #subt3{
-    color: rgb(46, 56, 75);
+    color: rgb(173, 48, 163)
+}
+body{
+    background-color: rgb(247, 209, 247)
 }
