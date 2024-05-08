@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Posições</title>
+    <style>
+      * {
+        /* margin: 0;
+            padding:0; */
+        box-sizing: border-box;
+      }
+      body {
+        height: calc(100vh + 1000px);
+      }
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: chartreuse;
+      }
+      #divStatic {
+        position: static;
+        /* top: ;
+            right: ;
+            bottom: ;
+            left: ; */
+      }
+      #divRelative {
+        position: relative;
+        left: 50px;
+      }
+      #divFixed {
+        position: fixed;
+      }
+      #pai {
+        position: relative;
+      }
+      #divAbsolut {
+        width: 50px;
+        height: 50px;
+        background-color: chocolate;
+        position: absolute;
+        top: 0;
+      }
+      #divStick {
+        position: sticky;
+        top: 0;
+      }
+
+      @media(max-widht:570px;){
+        div{
+          width: 50px;
+          height: 50px;
+          background: darkblue;
+        }
+
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h1>Posições</h1>
+    <h2>Posição Estática</h2>
+    <ul>
+      <li>não é posicionado de nenhuma maneira especial</li>
+      <li>segue o fluxo normal da página</li>
+      <li>não é afetado pelas propriedades (top, right, bottom e left)/li></li>
+    </ul>
+
+    <div id="divStatic">Position Static</div>
+
+    <h2>Posição Relativa</h2>
+    <ul>
+      <li>é afetada pelas propriedades(top, right, bottom e left)</li>
+      <li>o espaço que ela deixa vago não é ocupado por outro elemento</li>
+    </ul>
+    <div id="divRelative">Position Relative</div>
+
+    <h2>Posição Fixa</h2>
+    <ul>
+      <li>recebe todas as propriedades</li>
+    </ul>
+    <div id="divFixed">Position Fixed</div>
+
+    <h2>Posição Absoluta</h2>
+    <div id="pai">
+      <div id="divAbsolut">Position Absolut</div>
+    </div>
+
+    <h2>Posição Grudar</h2>
+    <div id="divStick">Position Stick</div>
+  </body>
+</html>

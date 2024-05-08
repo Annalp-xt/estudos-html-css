@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      #botao-menu{
+        display: none;
+      }
+
+    
+      a {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        background-color: black;
+        color: white;
+        padding: 5px;
+        width: 70px;
+        text-align: center;
+      }
+      a:hover {
+        outline: 2px solid rgb(20, 235, 1);
+      }
+      @media(max-widht: 620px;){
+        @menu{
+            top: -100px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <input type="checkbox" id="botao-menu">
+    <label for="botao-menu></label>
+    <nav id="menu">
+      <a href="">Item 1</a>
+      <a href="">Item 2</a>
+      <a href="">Item 3</a>
+      <a href="">Item 4</a>
+    </nav>
+  </body>
+</html>
